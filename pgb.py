@@ -14,12 +14,12 @@ from bs4 import BeautifulSoup
 
 # Global Variables
 DISCORD_USERNAME = "khi.thekhardist@gmail.com" # Discord Account Email
-DISCORD_PASSWORD = "Ilovemymoms1!" # Discord Account Password
+DISCORD_PASSWORD = "pwd" # Discord Account Password
 
 MANUAL_COOKIES = [
-    {"name": "shopmagic_visitor_d5e9c3fbb247663e3be68a5c662d7379", "value": "%7B%22meta%22%3A%5B%5D%2C%22user_id%22%3A6424%7D"},
-    {"name": "wordpress_logged_in_d5e9c3fbb247663e3be68a5c662d7379", "value": "liiiiia%7C1743962616%7CpwKHfLsoNEuZJPUNx5dQTVYR4ZQJog2xUbuPrvd9vGz%7C62f4a5a8d7a87565ff2ea1d7eafaf112c0548adc07f62bbb9afee725ca9c0733"},
-    {"name": "wordpress_sec_d5e9c3fbb247663e3be68a5c662d7379", "value": "liiiiia%7C1743962616%7CpwKHfLsoNEuZJPUNx5dQTVYR4ZQJog2xUbuPrvd9vGz%7C5929c14b7d732632612011808ad07f18a49254bcb28db497ae533af4a354193e"}
+    {"name": ""},
+    {"name": ""},
+    {"name": ""}
 ]
 
 COOLDOWN_DURATION_SECONDS = 3600
@@ -30,7 +30,7 @@ LOGIN_URL = 'https://pgbmemberpass.com/my-account/'
 SHOP_URL = 'https://pgbmemberpass.com/shop/'
 
 # Discord Webhook
-DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1349522889723871304/vnkTOfUS6ea34tubLzE6Tsu6Ar0GzEwHYcUFjNFybcFlF-eg6lpfDr60JRFIT8zAJr8K'
+DISCORD_WEBHOOK_URL = ''
 
 # Local Files
 PRODUCT_DICTIONARY_FILE = 'product_dictionary.txt'
